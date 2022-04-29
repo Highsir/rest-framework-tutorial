@@ -12,7 +12,4 @@
 .idea/rest_framework_tutoria.iml
 .idea/vcs.xml
 db.sqlite3
-manage.py
-rest_framework_tutoria/
-snippets/
-templates/
+
