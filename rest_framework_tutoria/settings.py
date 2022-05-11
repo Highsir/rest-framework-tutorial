@@ -122,3 +122,10 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# 分页
+# 请注意，REST框架中的所有设置都放在一个名为“REST_FRAMEWORK”的字典中，这有助于区分项目中的其他设置。
+# 如果需要的话，我们也可以自定义分页风格，但在这个例子中，我们将一直使用默认设置。
+REST_FRAMEWORK = {
+    'PAGE_SIZE': 10
+}
